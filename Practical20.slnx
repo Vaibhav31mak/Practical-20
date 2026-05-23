@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="Practical20.Api/Practical20.Api.csproj" />
+  <Project Path="Practical20.Application/Practical20.Application.csproj" />
+  <Project Path="Practical20.Domain/Practical20.Domain.csproj" />
+  <Project Path="Practical20.Infrastructure/Practical20.Infrastructure.csproj" />
+</Solution>

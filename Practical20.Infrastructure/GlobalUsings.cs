@@ -1,0 +1,10 @@
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.EntityFrameworkCore;
+global using Practical20.Domain.Common.AuditingConracts;
+global using Microsoft.Extensions.Configuration;
+global using Practical20.Domain.Entities;
+global using Practical20.Infrastructure.Data.DbContext;
+global using Practical20.Infrastructure.Repositories.Contracts;
+global using Practical20.Infrastructure.Repositories.Implementations;
+global using Practical20.Infrastructure.UnitOfWorkPattern;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;

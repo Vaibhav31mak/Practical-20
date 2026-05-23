@@ -1,0 +1,9 @@
+global using Microsoft.AspNetCore.Mvc;
+global using Practical20.Application.Contracts;
+global using Practical20.Application.Dtos.Students;
+global using Practical20.Api.Infrastructure.Exceptions;
+global using Practical20.Application.DependencyInjection;
+global using Practical20.Infrastructure.DependencyInjection;
+global using Microsoft.AspNetCore.Diagnostics;
+global using Serilog;
+global using Practical20.Api.Exceptions;
