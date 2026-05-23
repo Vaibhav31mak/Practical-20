@@ -2,6 +2,7 @@ namespace Practical20.Api.Infrastructure.Exceptions;
 
 public class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger) : IExceptionHandler
 {
+    // Global exception middleware to catch unhandled exceptions and return appropriate HTTP responses
     public async ValueTask<bool> TryHandleAsync(
         HttpContext httpContext,
         Exception exception,

@@ -9,5 +9,6 @@ public sealed class StudentProfile : Profile
         CreateMap<Student, StudentDto>();
         CreateMap<CreateStudentDto, Student>();
         CreateMap<UpdateStudentDto, Student>();
+        CreateMap<AuditLog, AuditLogDto>();
     }
 }

@@ -6,6 +6,7 @@ public class UnitOfWork(StudentDbContext context) : IUnitOfWork
 {
     private readonly StudentDbContext _context = context;
     private IBaseRepository<Student, Guid>? _students;
+    private IBaseRepository<AuditLog, Guid>? _auditLogs;
 
     /// <summary>
     /// Lazily initializes and returns the repository for Student entities. 
@@ -13,6 +14,9 @@ public class UnitOfWork(StudentDbContext context) : IUnitOfWork
     /// </summary>
     public IBaseRepository<Student, Guid> Students 
         => _students ??= new Repository<Student, Guid>(_context);
+
+    public IBaseRepository<AuditLog, Guid> AuditLogs
+        => _auditLogs ??= new Repository<AuditLog, Guid>(_context);
 
     public async Task<int> CommitAsync()
         => await _context.SaveChangesAsync();
