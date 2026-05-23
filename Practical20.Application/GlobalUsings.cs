@@ -2,6 +2,7 @@ global using AutoMapper;
 global using Microsoft.Extensions.Logging;
 global using Practical20.Application.Contracts;
 global using Practical20.Application.Dtos.Students;
+global using Practical20.Application.Dtos.AuditLogs;
 global using Practical20.Domain.Common.ResultPattern;
 global using Practical20.Domain.Entities;
 global using Practical20.Infrastructure.UnitOfWorkPattern;

@@ -9,6 +9,7 @@ public static class ApplicationServicesRegistration
     {
         services.AddAutoMapper(cfg => cfg.AddProfile<StudentProfile>());
         services.AddScoped<IStudentService, StudentService>();
+        services.AddScoped<IAuditLogService, AuditLogService>();
         return services;
     }
 }

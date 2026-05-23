@@ -1,0 +1,5 @@
+2026-05-23 17:07:22.420 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-23 17:08:24.568 +05:30 [INF] Created student "6e96a93b-8c9a-45f6-7db2-08deb8bfcc93"
+2026-05-23 17:09:44.590 +05:30 [INF] Updated student "6e96a93b-8c9a-45f6-7db2-08deb8bfcc93"
+2026-05-23 17:14:03.942 +05:30 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-23 17:14:05.150 +05:30 [INF] Fetched 1 audit logs
